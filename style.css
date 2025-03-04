@@ -1,29 +1,43 @@
 *{
-    text-align:center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-radius:20px;
-
+    background-color:rgb(22, 20, 27);
 }
 h1{
-    background-color:rgb(0, 0, 0);
-    font-size:medium;
-    color:white;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size:25;
+    margin:5px 850px;
+    background-color:aqua;
+    color:darkblue;
+    box-sizing:border-box;
+    width:200px;
+    padding:8px;
+    border-radius:20px;
+    border:2px solid darkblue;
 }
-.lasagna,
-.pizza,
-.bruschetta{
-    font-size:19px;
-    border-radius:8px;
-    color:white;
 
+#r1,
+#r2,
+#r3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(236, 29, 63);
+    color:rgb(21, 10, 170);
+    padding:15px;
+    border:2px solid rgb(255, 128, 128);
+    border-style:dotted;
+    border-radius:20px;
+    box-sizing: border-box;
 }
 .lasagna{
-    background-color:rgb(117, 70, 70);
+    margin:15px 30px 9px 5px;
 }
 .pizza{
-    background-color:rgb(119, 104, 63);
+    margin:15px 30px 9px 30px;
 }
 .bruschetta{
-    background-color:rgb(117, 173, 103);
-
+    margin:15px 30px 9px 30px;
+}
+.recipes p{
+    font-weight:bold;
+    font-size:xx-large;
+    color:rgb(255, 128, 128);
 }
