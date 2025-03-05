@@ -6,7 +6,58 @@
 .bruschetta-img{
     width:300px;
     height:300px;
+    margin-bottom: 10px;
+    border:5px solid rgb(219, 217, 217); 
+    border-style:double;
 }
 h1,h2{
     color:rgb(255, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.desdiv{
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ingdiv{
+    border-top:2px solid rgb(0, 0, 0);
+    border-bottom:2px solid rgb(0, 0, 0);
+    
+    color:white;
+    margin:auto;
+    padding:15px;
+    width:900px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li{
+    width:240px;
+    margin:auto;
+    margin-bottom:4px;
+}
+
+.insdiv{
+    margin:0px 750px 0px 750px;
+    color:white;
+
+}
+ol li{
+    width:400px;
+    margin:auto;
+    margin-bottom:4px;
+}
+
+.home{
+    background-color: rgb(236, 29, 63);
+    color:darkblue;
+    border:none;
+    padding:9px;
+    border-radius:15px;
+    margin-top:20px;
+}
+.homebutton{
+    background-color: rgb(236, 29, 63);
+    color:darkblue;
+    font-size:20px;
 }
