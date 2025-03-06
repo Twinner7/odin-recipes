@@ -1,6 +1,7 @@
 *{
     background-color:rgb(22, 20, 27);
     text-align:center;
+   
 }
 
 .bruschetta-img{
@@ -38,8 +39,10 @@ ul li{
 }
 
 .insdiv{
-    margin:0px 750px 0px 750px;
+    width:700px;
+    margin:auto;
     color:white;
+    
 
 }
 ol li{
